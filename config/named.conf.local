@@ -1,0 +1,6 @@
+zone local.woodytoys {
+	type forward;
+	forwarders {172.16.0.4;};
+	forward only;
+}
+

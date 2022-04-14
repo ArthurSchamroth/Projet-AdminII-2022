@@ -1,0 +1,16 @@
+options{
+	directory "var/cache/bind";
+	
+	dnssec-validation auto;
+	interface-interval 0;
+	listen-on port 53 { any;};
+	listen-on-v6 {none; };
+	
+	recursion yes;
+	
+	allow-recursion{
+	198.168.0.0/24;
+	172.16.1.0/24;
+	172.16.0.0/24;
+	}
+	

@@ -1,0 +1,5 @@
+FROM  mysql:8.0.30-debian
+
+RUN apt update && apt-get upgrade -y 
+
+COPY ./database/ /docker-entrypoint-initdb.d/

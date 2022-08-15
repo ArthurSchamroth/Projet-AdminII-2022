@@ -1,0 +1,4 @@
+zone "mes-b1.ephec-ti.be" {
+    type master;
+    file "/etc/bind/mes-b1.ephec-ti.be";
+};

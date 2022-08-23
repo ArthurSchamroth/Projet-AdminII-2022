@@ -1,3 +1,4 @@
+// déclaration de la zone mes et de son fichier de zone
 zone "mes-b1.ephec-ti.be" {
     type master;
     file "/etc/bind/mes-b1.ephec-ti.be";

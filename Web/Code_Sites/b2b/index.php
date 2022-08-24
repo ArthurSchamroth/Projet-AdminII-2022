@@ -1,10 +1,8 @@
 <?php
-$servername = "51.178.45.190:3306";
-$username = "admin";
-$password = "PasswordDB";
-$dbname = "DataBase_Woody";
 
 // On crée la connexion
+// Les variables servername, username, password et dbname ne sont pas présentes dans ce fichier git pour assurer sécurité supplémentaire.
+// Elles sont néanmoins bien présentes en local.
 $conn = new mysqli($servername, $username, $password, $dbname);
 
 // On vérifie la connexion
